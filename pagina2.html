@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <a-assets>
+                <video id="antarctica" autoplay loop="true" src="v.mp4"> </video>
+            </a-assets>
+            <a-videosphere src="#antarctica"></a-videosphere>
+            <a-torus position= "0 0 0" color="#4CC3D9" radius= "6"></a-torus>
+            <a-icosahedron position= "1 1 1" color="#FF926B" radius="5"></a-icosahedron>
+            <a-sky src="#antarctica"></a-sky>
+        </a-scene>
+    </body>
